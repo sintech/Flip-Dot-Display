@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC238
+D Decoder 3 to 8 active low outputs
+K CMOS DECOD DECOD8
+F http://www.ti.com/lit/ds/symlink/cd54hct238.pdf
+$ENDCMP
+#
+$CMP 74LS238
+D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+F http://www.ti.com/lit/gpn/sn74LS138
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TB62705
+D 8-BIT SHIFT REGISTER, LATCHES & CONSTANT-CURRENT DRIVERS
+K LED Driver
+F https://4donline.ihs.com/images/VipMasterIC/IC/TOSC/TOSCS18089/TOSCS18089-1.pdf
+$ENDCMP
+#
+#End Doc Library
