@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:flipdotDisplay-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,32 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Diode:BAV99 D?
-U 1 1 5D4349E3
-P 13650 5350
-AR Path="/5D4349E3" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D4349E3" Ref="D3"  Part="1" 
-F 0 "D3" H 13650 5450 50  0000 C CNN
-F 1 "BAV99" H 13650 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13650 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 13650 5450 50  0001 C CNN
-	1    13650 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D4349E9
-P 14050 5350
-AR Path="/5D4349E9" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D4349E9" Ref="D3"  Part="2" 
-F 0 "D3" H 14050 5450 50  0000 C CNN
-F 1 "BAV99" H 14050 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14050 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14050 5450 50  0001 C CNN
-	2    14050 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_Array:TBD62783A U?
 U 1 1 5D4349EF
 P 14950 4550
@@ -53,15 +26,6 @@ F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62
 	1    14950 4550
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	13900 5350 13850 5350
-Wire Wire Line
-	13850 5500 13850 5350
-Connection ~ 13850 5350
-Wire Wire Line
-	13850 5350 13800 5350
-Wire Wire Line
-	13500 5350 13400 5350
 $Comp
 L Transistor_Array:ULN2803A U?
 U 1 1 5D4349FA
@@ -74,251 +38,6 @@ F 2 "" H 13250 3900 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13300 4350 50  0001 C CNN
 	1    13200 4550
 	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	14200 5100 14200 5350
-$Comp
-L Diode:BAV99 D?
-U 1 1 5D434A01
-P 14500 5350
-AR Path="/5D434A01" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434A01" Ref="D4"  Part="1" 
-F 0 "D4" H 14500 5450 50  0000 C CNN
-F 1 "BAV99" H 14500 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14500 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14500 5450 50  0001 C CNN
-	1    14500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A07
-P 14850 5350
-AR Path="/5D434A07" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A07" Ref="D4"  Part="2" 
-F 0 "D4" H 14850 5450 50  0000 C CNN
-F 1 "BAV99" H 14850 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14850 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14850 5450 50  0001 C CNN
-	2    14850 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14700 5500 14700 5350
-Connection ~ 14700 5350
-Wire Wire Line
-	14700 5350 14650 5350
-Wire Wire Line
-	14700 5700 14700 5800
-Wire Wire Line
-	14700 5800 15850 5800
-$Comp
-L Device:L_Small L?
-U 1 1 5D434A12
-P 14700 5600
-AR Path="/5D434A12" Ref="L?"  Part="1" 
-AR Path="/5D4182A2/5D434A12" Ref="L4"  Part="1" 
-F 0 "L4" H 14730 5640 50  0000 L CNN
-F 1 "COIL" H 14730 5560 50  0000 L CNN
-F 2 "" H 14700 5600 50  0001 C CNN
-F 3 "~" H 14700 5600 50  0001 C CNN
-	1    14700 5600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
-U 1 1 5D434A18
-P 13850 5600
-AR Path="/5D434A18" Ref="L?"  Part="1" 
-AR Path="/5D4182A2/5D434A18" Ref="L3"  Part="1" 
-F 0 "L3" H 13880 5640 50  0000 L CNN
-F 1 "COIL" H 13880 5560 50  0000 L CNN
-F 2 "" H 13850 5600 50  0001 C CNN
-F 3 "~" H 13850 5600 50  0001 C CNN
-	1    13850 5600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15150 4950 15150 5350
-Wire Wire Line
-	15150 5350 15000 5350
-Wire Wire Line
-	14350 5350 14350 5000
-Wire Wire Line
-	14350 5000 13500 5000
-Wire Wire Line
-	13500 5000 13500 4950
-Wire Wire Line
-	14200 5100 15050 5100
-Wire Wire Line
-	15050 5100 15050 4950
-Wire Wire Line
-	13400 4950 13400 5350
-Wire Wire Line
-	14700 5800 13850 5800
-Connection ~ 14700 5800
-Wire Wire Line
-	13850 5700 13850 5800
-Text Label 15600 5800 0    50   ~ 0
-ROW1
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A2A
-P 14050 6850
-AR Path="/5D434A2A" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A2A" Ref="D7"  Part="2" 
-F 0 "D7" H 14050 6950 50  0000 C CNN
-F 1 "BAV99" H 14050 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14050 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14050 6950 50  0001 C CNN
-	2    14050 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 1 1 5D434A30
-P 13650 6850
-AR Path="/5D434A30" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434A30" Ref="D7"  Part="1" 
-F 0 "D7" H 13650 6950 50  0000 C CNN
-F 1 "BAV99" H 13650 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13650 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 13650 6950 50  0001 C CNN
-	1    13650 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13900 6850 13850 6850
-Wire Wire Line
-	13850 7000 13850 6850
-Connection ~ 13850 6850
-Wire Wire Line
-	13850 6850 13800 6850
-Wire Wire Line
-	13500 6850 13400 6850
-Wire Wire Line
-	14200 6600 14200 6850
-$Comp
-L Diode:BAV99 D?
-U 1 1 5D434A3C
-P 14500 6850
-AR Path="/5D434A3C" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434A3C" Ref="D8"  Part="1" 
-F 0 "D8" H 14500 6950 50  0000 C CNN
-F 1 "BAV99" H 14500 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14500 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14500 6950 50  0001 C CNN
-	1    14500 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A42
-P 14900 6850
-AR Path="/5D434A42" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A42" Ref="D8"  Part="2" 
-F 0 "D8" H 14900 6950 50  0000 C CNN
-F 1 "BAV99" H 14900 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14900 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14900 6950 50  0001 C CNN
-	2    14900 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14750 6850 14700 6850
-Wire Wire Line
-	14700 7000 14700 6850
-Connection ~ 14700 6850
-Wire Wire Line
-	14700 6850 14650 6850
-Wire Wire Line
-	14700 7200 14700 7300
-Wire Wire Line
-	14700 7300 15850 7300
-$Comp
-L Device:L_Small L?
-U 1 1 5D434A4E
-P 14700 7100
-AR Path="/5D434A4E" Ref="L?"  Part="1" 
-AR Path="/5D4182A2/5D434A4E" Ref="L8"  Part="1" 
-F 0 "L8" H 14730 7140 50  0000 L CNN
-F 1 "COIL" H 14730 7060 50  0000 L CNN
-F 2 "" H 14700 7100 50  0001 C CNN
-F 3 "~" H 14700 7100 50  0001 C CNN
-	1    14700 7100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
-U 1 1 5D434A54
-P 13850 7100
-AR Path="/5D434A54" Ref="L?"  Part="1" 
-AR Path="/5D4182A2/5D434A54" Ref="L7"  Part="1" 
-F 0 "L7" H 13880 7140 50  0000 L CNN
-F 1 "COIL" H 13880 7060 50  0000 L CNN
-F 2 "" H 13850 7100 50  0001 C CNN
-F 3 "~" H 13850 7100 50  0001 C CNN
-	1    13850 7100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15150 6850 15050 6850
-Wire Wire Line
-	14200 6600 15050 6600
-Wire Wire Line
-	14700 7300 13850 7300
-Connection ~ 14700 7300
-Wire Wire Line
-	13850 7200 13850 7300
-Wire Wire Line
-	15150 5350 15150 6850
-Connection ~ 15150 5350
-Connection ~ 15050 5100
-Wire Wire Line
-	14350 5350 14350 6850
-Connection ~ 14350 5350
-Wire Wire Line
-	13400 6850 13400 5350
-Connection ~ 13400 5350
-Wire Wire Line
-	15050 5100 15050 6600
-Text Label 15600 7300 0    50   ~ 0
-ROW7
-Wire Notes Line
-	14300 5150 14300 7700
-Wire Notes Line
-	15200 5100 15200 7700
-Wire Notes Line
-	13350 5150 13350 7700
-Text Notes 14600 7600 0    50   ~ 0
-COL30
-Text Notes 13700 7600 0    50   ~ 0
-COL29
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A6D
-P 4650 6850
-AR Path="/5D434A6D" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A6D" Ref="D5"  Part="2" 
-F 0 "D5" H 4650 6950 50  0000 C CNN
-F 1 "BAV99" H 4650 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4650 6950 50  0001 C CNN
-	2    4650 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A73
-P 4650 5350
-AR Path="/5D434A73" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A73" Ref="D1"  Part="2" 
-F 0 "D1" H 4650 5450 50  0000 C CNN
-F 1 "BAV99" H 4650 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4650 5450 50  0001 C CNN
-	2    4650 5350
-	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_Array:TBD62783A U?
@@ -334,14 +53,7 @@ F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4500 5350 4450 5350
-Wire Wire Line
-	4450 5500 4450 5350
-Connection ~ 4450 5350
-Wire Wire Line
-	4450 5350 4400 5350
-Wire Wire Line
-	4100 5350 4000 5350
+	4400 5900 4400 5850
 $Comp
 L Transistor_Array:ULN2803A U?
 U 1 1 5D434A84
@@ -356,218 +68,148 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4300 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4800 5150 4800 5350
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A8B
-P 5500 6850
-AR Path="/5D434A8B" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A8B" Ref="D6"  Part="2" 
-F 0 "D6" H 5500 6950 50  0000 C CNN
-F 1 "BAV99" H 5500 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5500 6950 50  0001 C CNN
-	2    5500 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV99 D?
-U 2 1 5D434A91
-P 5450 5350
-AR Path="/5D434A91" Ref="D?"  Part="1" 
-AR Path="/5D4182A2/5D434A91" Ref="D2"  Part="2" 
-F 0 "D2" H 5450 5450 50  0000 C CNN
-F 1 "BAV99" H 5450 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5450 5450 50  0001 C CNN
-	2    5450 5350
-	1    0    0    -1  
-$EndComp
+	5350 5900 5350 5850
 Wire Wire Line
-	5300 5500 5300 5350
-Connection ~ 5300 5350
-Wire Wire Line
-	5300 5350 5250 5350
-Wire Wire Line
-	5300 5700 5300 5800
+	5350 6100 5350 6200
 $Comp
 L Device:L_Small L?
 U 1 1 5D434A9B
-P 5300 5600
+P 5350 6000
 AR Path="/5D434A9B" Ref="L?"  Part="1" 
 AR Path="/5D4182A2/5D434A9B" Ref="L2"  Part="1" 
-F 0 "L2" H 5330 5640 50  0000 L CNN
-F 1 "COIL" H 5330 5560 50  0000 L CNN
-F 2 "" H 5300 5600 50  0001 C CNN
-F 3 "~" H 5300 5600 50  0001 C CNN
-	1    5300 5600
+F 0 "L2" H 5380 6040 50  0000 L CNN
+F 1 "COIL" H 5380 5960 50  0000 L CNN
+F 2 "" H 5350 6000 50  0001 C CNN
+F 3 "~" H 5350 6000 50  0001 C CNN
+	1    5350 6000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:L_Small L?
 U 1 1 5D434AA1
-P 4450 5600
+P 4400 6000
 AR Path="/5D434AA1" Ref="L?"  Part="1" 
 AR Path="/5D4182A2/5D434AA1" Ref="L1"  Part="1" 
-F 0 "L1" H 4480 5640 50  0000 L CNN
-F 1 "COIL" H 4480 5560 50  0000 L CNN
-F 2 "" H 4450 5600 50  0001 C CNN
-F 3 "~" H 4450 5600 50  0001 C CNN
-	1    4450 5600
+F 0 "L1" H 4430 6040 50  0000 L CNN
+F 1 "COIL" H 4430 5960 50  0000 L CNN
+F 2 "" H 4400 6000 50  0001 C CNN
+F 3 "~" H 4400 6000 50  0001 C CNN
+	1    4400 6000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 4950 5750 5350
+	5750 4950 5750 5650
 Wire Wire Line
-	5750 5350 5600 5350
+	5750 5650 5650 5650
 Wire Wire Line
-	4950 5350 4950 5050
+	4000 4950 4000 5650
 Wire Wire Line
-	4950 5050 4100 5050
+	5350 6200 4400 6200
 Wire Wire Line
-	4100 5050 4100 4950
+	4400 6100 4400 6200
+Connection ~ 4400 6200
 Wire Wire Line
-	4800 5150 5650 5150
-Wire Wire Line
-	5650 5150 5650 4950
-Wire Wire Line
-	4000 4950 4000 5350
-Wire Wire Line
-	5300 5800 4450 5800
-Connection ~ 5300 5800
-Wire Wire Line
-	4450 5700 4450 5800
-Connection ~ 4450 5800
-Wire Wire Line
-	4450 5800 3250 5800
+	4400 6200 3250 6200
 $Comp
 L Diode:BAV99 D?
 U 1 1 5D434AB4
-P 4250 6850
+P 4400 7150
 AR Path="/5D434AB4" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434AB4" Ref="D5"  Part="1" 
-F 0 "D5" H 4250 6950 50  0000 C CNN
-F 1 "BAV99" H 4250 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4250 6950 50  0001 C CNN
-	1    4250 6850
-	1    0    0    -1  
+AR Path="/5D4182A2/5D434AB4" Ref="D15"  Part="1" 
+F 0 "D15" H 4400 7250 50  0000 C CNN
+F 1 "BAV99" H 4250 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4400 7250 50  0001 C CNN
+	1    4400 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV99 D?
 U 1 1 5D434ABA
-P 4250 5350
+P 4400 5650
 AR Path="/5D434ABA" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434ABA" Ref="D1"  Part="1" 
-F 0 "D1" H 4250 5450 50  0000 C CNN
-F 1 "BAV99" H 4250 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4250 5450 50  0001 C CNN
-	1    4250 5350
-	1    0    0    -1  
+AR Path="/5D4182A2/5D434ABA" Ref="D11"  Part="1" 
+F 0 "D11" H 4400 5750 50  0000 C CNN
+F 1 "BAV99" H 4250 5550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 5500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4400 5750 50  0001 C CNN
+	1    4400 5650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 6850 4450 6850
-Wire Wire Line
-	4450 7000 4450 6850
-Connection ~ 4450 6850
-Wire Wire Line
-	4450 6850 4400 6850
-Wire Wire Line
-	4100 6850 4000 6850
-Wire Wire Line
-	4800 6600 4800 6850
+	4400 7400 4400 7350
 $Comp
 L Diode:BAV99 D?
 U 1 1 5D434AC6
-P 5100 6850
+P 5350 7150
 AR Path="/5D434AC6" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434AC6" Ref="D6"  Part="1" 
-F 0 "D6" H 5100 6950 50  0000 C CNN
-F 1 "BAV99" H 5100 6750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 6700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5100 6950 50  0001 C CNN
-	1    5100 6850
-	1    0    0    -1  
+AR Path="/5D4182A2/5D434AC6" Ref="D16"  Part="1" 
+F 0 "D16" H 5350 7250 50  0000 C CNN
+F 1 "BAV99" H 5200 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5350 7250 50  0001 C CNN
+	1    5350 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV99 D?
 U 1 1 5D434ACC
-P 5100 5350
+P 5350 5650
 AR Path="/5D434ACC" Ref="D?"  Part="2" 
-AR Path="/5D4182A2/5D434ACC" Ref="D2"  Part="1" 
-F 0 "D2" H 5100 5450 50  0000 C CNN
-F 1 "BAV99" H 5100 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5100 5450 50  0001 C CNN
-	1    5100 5350
-	1    0    0    -1  
+AR Path="/5D4182A2/5D434ACC" Ref="D12"  Part="1" 
+F 0 "D12" H 5350 5750 50  0000 C CNN
+F 1 "BAV99" H 5200 5550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 5500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5350 5750 50  0001 C CNN
+	1    5350 5650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 6850 5300 6850
-Wire Wire Line
-	5300 7000 5300 6850
-Connection ~ 5300 6850
-Wire Wire Line
-	5300 6850 5250 6850
-Wire Wire Line
-	5300 7200 5300 7300
+	5350 7600 5350 7700
 $Comp
 L Device:L_Small L?
 U 1 1 5D434AD7
-P 5300 7100
+P 5350 7500
 AR Path="/5D434AD7" Ref="L?"  Part="1" 
 AR Path="/5D4182A2/5D434AD7" Ref="L6"  Part="1" 
-F 0 "L6" H 5330 7140 50  0000 L CNN
-F 1 "COIL" H 5330 7060 50  0000 L CNN
-F 2 "" H 5300 7100 50  0001 C CNN
-F 3 "~" H 5300 7100 50  0001 C CNN
-	1    5300 7100
+F 0 "L6" H 5380 7540 50  0000 L CNN
+F 1 "COIL" H 5380 7460 50  0000 L CNN
+F 2 "" H 5350 7500 50  0001 C CNN
+F 3 "~" H 5350 7500 50  0001 C CNN
+	1    5350 7500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:L_Small L?
 U 1 1 5D434ADD
-P 4450 7100
+P 4400 7500
 AR Path="/5D434ADD" Ref="L?"  Part="1" 
 AR Path="/5D4182A2/5D434ADD" Ref="L5"  Part="1" 
-F 0 "L5" H 4480 7140 50  0000 L CNN
-F 1 "COIL" H 4480 7060 50  0000 L CNN
-F 2 "" H 4450 7100 50  0001 C CNN
-F 3 "~" H 4450 7100 50  0001 C CNN
-	1    4450 7100
+F 0 "L5" H 4430 7540 50  0000 L CNN
+F 1 "COIL" H 4430 7460 50  0000 L CNN
+F 2 "" H 4400 7500 50  0001 C CNN
+F 3 "~" H 4400 7500 50  0001 C CNN
+	1    4400 7500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 6850 5650 6850
+	5350 7700 4400 7700
 Wire Wire Line
-	4800 6600 5650 6600
+	4400 7600 4400 7700
 Wire Wire Line
-	5300 7300 4450 7300
-Connection ~ 5300 7300
+	4400 7700 3250 7700
 Wire Wire Line
-	4450 7200 4450 7300
-Connection ~ 4450 7300
+	5750 5650 5750 7150
+Connection ~ 5750 5650
 Wire Wire Line
-	4450 7300 3250 7300
-Wire Wire Line
-	5750 5350 5750 6850
-Connection ~ 5750 5350
-Connection ~ 5650 5150
-Wire Wire Line
-	4950 5350 4950 6850
-Connection ~ 4950 5350
-Wire Wire Line
-	4000 6850 4000 5350
-Connection ~ 4000 5350
-Wire Wire Line
-	5650 5150 5650 6600
+	4000 7150 4000 5650
+Connection ~ 4000 5650
 Wire Notes Line
-	4900 5200 4900 7750
+	4900 5400 4900 8200
 Wire Notes Line
-	5800 5150 5800 7750
+	5800 5400 5800 8200
 Wire Notes Line
-	3950 5200 3950 7750
+	3950 5400 3950 8200
 $Comp
 L Transistor_Array:TBD62783A U?
 U 1 1 5D434AF5
@@ -620,17 +262,17 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 7500 4350 50  0001 C CNN
 	1    7400 4550
 	0    -1   1    0   
 $EndComp
-Text Notes 4300 7650 0    50   ~ 0
+Text Notes 4300 8050 0    50   ~ 0
 COL1
-Text Notes 5250 7650 0    50   ~ 0
+Text Notes 5250 8050 0    50   ~ 0
 COL2
 $Comp
 L power:Earth #PWR?
 U 1 1 5D434B0F
 P 15650 4650
 AR Path="/5D434B0F" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B0F" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 15650 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B0F" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 15650 4400 50  0001 C CNN
 F 1 "Earth" H 15650 4500 50  0001 C CNN
 F 2 "" H 15650 4650 50  0001 C CNN
 F 3 "~" H 15650 4650 50  0001 C CNN
@@ -642,8 +284,8 @@ L power:Earth #PWR?
 U 1 1 5D434B15
 P 14000 4650
 AR Path="/5D434B15" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B15" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 14000 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B15" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 14000 4400 50  0001 C CNN
 F 1 "Earth" H 14000 4500 50  0001 C CNN
 F 2 "" H 14000 4650 50  0001 C CNN
 F 3 "~" H 14000 4650 50  0001 C CNN
@@ -655,8 +297,8 @@ L power:Earth #PWR?
 U 1 1 5D434B1B
 P 12550 4650
 AR Path="/5D434B1B" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B1B" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 12550 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B1B" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 12550 4400 50  0001 C CNN
 F 1 "Earth" H 12550 4500 50  0001 C CNN
 F 2 "" H 12550 4650 50  0001 C CNN
 F 3 "~" H 12550 4650 50  0001 C CNN
@@ -668,8 +310,8 @@ L power:Earth #PWR?
 U 1 1 5D434B21
 P 11100 4650
 AR Path="/5D434B21" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B21" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 11100 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B21" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 11100 4400 50  0001 C CNN
 F 1 "Earth" H 11100 4500 50  0001 C CNN
 F 2 "" H 11100 4650 50  0001 C CNN
 F 3 "~" H 11100 4650 50  0001 C CNN
@@ -681,8 +323,8 @@ L power:Earth #PWR?
 U 1 1 5D434B33
 P 6650 4650
 AR Path="/5D434B33" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B33" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 6650 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B33" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 6650 4400 50  0001 C CNN
 F 1 "Earth" H 6650 4500 50  0001 C CNN
 F 2 "" H 6650 4650 50  0001 C CNN
 F 3 "~" H 6650 4650 50  0001 C CNN
@@ -692,15 +334,15 @@ $EndComp
 Wire Wire Line
 	12900 4950 12900 5050
 Wire Wire Line
-	3250 6050 3700 6050
+	3250 6450 3700 6450
 Wire Wire Line
-	3250 6300 3700 6300
+	3250 6700 3700 6700
 Wire Wire Line
-	3250 6550 3700 6550
+	3250 6950 3700 6950
 Wire Wire Line
-	3250 6800 3700 6800
+	3250 7200 3700 7200
 Wire Wire Line
-	3250 7050 3700 7050
+	3250 7450 3700 7450
 $Comp
 L 74ls238:74HC238 U?
 U 1 1 5D434B64
@@ -793,12 +435,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 4300 3500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5300 5800 13850 5800
-Connection ~ 13850 5800
-Wire Wire Line
-	5300 7300 13850 7300
-Connection ~ 13850 7300
-Wire Wire Line
 	12550 3500 12550 4550
 Wire Wire Line
 	12550 4550 12450 4550
@@ -815,8 +451,8 @@ L power:+5V #PWR?
 U 1 1 5D434BA1
 P 14300 3350
 AR Path="/5D434BA1" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434BA1" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 14300 3200 50  0001 C CNN
+AR Path="/5D4182A2/5D434BA1" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 14300 3200 50  0001 C CNN
 F 1 "+5V" H 14300 3490 50  0000 C CNN
 F 2 "" H 14300 3350 50  0001 C CNN
 F 3 "" H 14300 3350 50  0001 C CNN
@@ -832,8 +468,8 @@ L power:+5V #PWR?
 U 1 1 5D434BA9
 P 12650 3350
 AR Path="/5D434BA9" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434BA9" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 12650 3200 50  0001 C CNN
+AR Path="/5D4182A2/5D434BA9" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 12650 3200 50  0001 C CNN
 F 1 "+5V" H 12650 3490 50  0000 C CNN
 F 2 "" H 12650 3350 50  0001 C CNN
 F 3 "" H 12650 3350 50  0001 C CNN
@@ -1132,23 +768,23 @@ Wire Wire Line
 Connection ~ 1200 1050
 Wire Wire Line
 	1200 1050 1200 1400
-Text HLabel 3250 5800 0    50   Input ~ 0
+Text HLabel 3250 6200 0    50   Input ~ 0
 ROW1
-Text HLabel 3250 6300 0    50   Input ~ 0
+Text HLabel 3250 6700 0    50   Input ~ 0
 ROW3
-Text HLabel 3250 6550 0    50   Input ~ 0
+Text HLabel 3250 6950 0    50   Input ~ 0
 ROW4
-Text HLabel 3250 6800 0    50   Input ~ 0
+Text HLabel 3250 7200 0    50   Input ~ 0
 ROW5
-Text HLabel 3250 7050 0    50   Input ~ 0
+Text HLabel 3250 7450 0    50   Input ~ 0
 ROW6
-Text HLabel 3250 7300 0    50   Input ~ 0
+Text HLabel 3250 7700 0    50   Input ~ 0
 ROW7
-Text HLabel 3250 2900 0    50   Input ~ 0
+Text HLabel 2650 2900 0    50   Input ~ 0
 COL_A0
-Text HLabel 3250 2800 0    50   Input ~ 0
+Text HLabel 2650 2800 0    50   Input ~ 0
 COL_A1
-Text HLabel 3250 2700 0    50   Input ~ 0
+Text HLabel 2650 2700 0    50   Input ~ 0
 COL_A2
 Text HLabel 3250 2100 0    50   Input ~ 0
 COL_EN_A0
@@ -1158,7 +794,7 @@ Text HLabel 3250 1900 0    50   Input ~ 0
 COL_EN_A2
 Text HLabel 3300 1600 0    50   Input ~ 0
 COL_EN_ENABLE
-Text HLabel 3250 6050 0    50   Input ~ 0
+Text HLabel 3250 6450 0    50   Input ~ 0
 ROW2
 $Comp
 L Device:R_Small R4
@@ -1355,11 +991,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 2100 3450 2100
 Wire Wire Line
-	3250 2700 4200 2700
+	2650 2700 4200 2700
 Wire Wire Line
-	3250 2800 4100 2800
+	2650 2800 4100 2800
 Wire Wire Line
-	3250 2900 4000 2900
+	2650 2900 4000 2900
 Wire Wire Line
 	3300 1600 3350 1600
 Connection ~ 3350 1600
@@ -1386,8 +1022,8 @@ L power:Earth #PWR?
 U 1 1 5D753B44
 P 1200 2550
 AR Path="/5D753B44" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D753B44" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1200 2300 50  0001 C CNN
+AR Path="/5D4182A2/5D753B44" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 1200 2300 50  0001 C CNN
 F 1 "Earth" H 1200 2400 50  0001 C CNN
 F 2 "" H 1200 2550 50  0001 C CNN
 F 3 "~" H 1200 2550 50  0001 C CNN
@@ -1416,8 +1052,8 @@ L power:Earth #PWR?
 U 1 1 5D71D782
 P 5000 4650
 AR Path="/5D71D782" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D71D782" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 5000 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D71D782" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 5000 4400 50  0001 C CNN
 F 1 "Earth" H 5000 4500 50  0001 C CNN
 F 2 "" H 5000 4650 50  0001 C CNN
 F 3 "~" H 5000 4650 50  0001 C CNN
@@ -1435,8 +1071,8 @@ L power:+5V #PWR?
 U 1 1 5D786984
 P 11200 3300
 AR Path="/5D786984" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D786984" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 11200 3150 50  0001 C CNN
+AR Path="/5D4182A2/5D786984" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 11200 3150 50  0001 C CNN
 F 1 "+5V" H 11200 3440 50  0000 C CNN
 F 2 "" H 11200 3300 50  0001 C CNN
 F 3 "" H 11200 3300 50  0001 C CNN
@@ -1448,8 +1084,8 @@ L power:+5V #PWR?
 U 1 1 5D786DD0
 P 9750 3300
 AR Path="/5D786DD0" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D786DD0" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 9750 3150 50  0001 C CNN
+AR Path="/5D4182A2/5D786DD0" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 9750 3150 50  0001 C CNN
 F 1 "+5V" H 9750 3440 50  0000 C CNN
 F 2 "" H 9750 3300 50  0001 C CNN
 F 3 "" H 9750 3300 50  0001 C CNN
@@ -1461,8 +1097,8 @@ L power:+5V #PWR?
 U 1 1 5D78790C
 P 5300 3300
 AR Path="/5D78790C" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D78790C" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 5300 3150 50  0001 C CNN
+AR Path="/5D4182A2/5D78790C" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 5300 3150 50  0001 C CNN
 F 1 "+5V" H 5300 3440 50  0000 C CNN
 F 2 "" H 5300 3300 50  0001 C CNN
 F 3 "" H 5300 3300 50  0001 C CNN
@@ -1474,8 +1110,8 @@ L power:+5V #PWR?
 U 1 1 5D787CA7
 P 3600 3300
 AR Path="/5D787CA7" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D787CA7" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 3600 3150 50  0001 C CNN
+AR Path="/5D4182A2/5D787CA7" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3600 3150 50  0001 C CNN
 F 1 "+5V" H 3600 3440 50  0000 C CNN
 F 2 "" H 3600 3300 50  0001 C CNN
 F 3 "" H 3600 3300 50  0001 C CNN
@@ -1500,7 +1136,7 @@ Wire Wire Line
 	11200 3500 11250 3500
 Wire Wire Line
 	12750 5050 12900 5050
-Text HLabel 3250 5550 0    50   Input ~ 0
+Text HLabel 2650 3050 0    50   Input ~ 0
 PWR
 Text HLabel 5350 4550 0    50   Input ~ 0
 PWR
@@ -1536,8 +1172,8 @@ L power:Earth #PWR?
 U 1 1 5D434B27
 P 9650 4650
 AR Path="/5D434B27" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B27" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 9650 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B27" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 9650 4400 50  0001 C CNN
 F 1 "Earth" H 9650 4500 50  0001 C CNN
 F 2 "" H 9650 4650 50  0001 C CNN
 F 3 "~" H 9650 4650 50  0001 C CNN
@@ -1555,8 +1191,8 @@ L power:+5V #PWR?
 U 1 1 5D78721F
 P 8300 3250
 AR Path="/5D78721F" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D78721F" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 8300 3100 50  0001 C CNN
+AR Path="/5D4182A2/5D78721F" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 8300 3100 50  0001 C CNN
 F 1 "+5V" H 8300 3390 50  0000 C CNN
 F 2 "" H 8300 3250 50  0001 C CNN
 F 3 "" H 8300 3250 50  0001 C CNN
@@ -1574,8 +1210,8 @@ L power:+5V #PWR?
 U 1 1 5D78751D
 P 6850 3250
 AR Path="/5D78751D" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D78751D" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6850 3100 50  0001 C CNN
+AR Path="/5D4182A2/5D78751D" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6850 3100 50  0001 C CNN
 F 1 "+5V" H 6850 3390 50  0000 C CNN
 F 2 "" H 6850 3250 50  0001 C CNN
 F 3 "" H 6850 3250 50  0001 C CNN
@@ -1587,8 +1223,8 @@ L power:Earth #PWR?
 U 1 1 5D434B2D
 P 8200 4650
 AR Path="/5D434B2D" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5D434B2D" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 8200 4400 50  0001 C CNN
+AR Path="/5D4182A2/5D434B2D" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 8200 4400 50  0001 C CNN
 F 1 "Earth" H 8200 4500 50  0001 C CNN
 F 2 "" H 8200 4650 50  0001 C CNN
 F 3 "~" H 8200 4650 50  0001 C CNN
@@ -1648,18 +1284,18 @@ Connection ~ 9650 4550
 NoConn ~ 11250 4550
 NoConn ~ 8450 4550
 Wire Wire Line
-	3250 5550 3700 5550
-Text HLabel 3250 5300 0    50   Input ~ 0
+	2650 3050 3100 3050
+Text HLabel 2650 3200 0    50   Input ~ 0
 GND
-Text HLabel 3250 2550 0    50   Input ~ 0
+Text HLabel 2650 2550 0    50   Input ~ 0
 +5V
 $Comp
 L power:+5V #PWR?
 U 1 1 5DD11D58
 P 3350 2500
 AR Path="/5DD11D58" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5DD11D58" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 3350 2350 50  0001 C CNN
+AR Path="/5D4182A2/5DD11D58" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 3350 2350 50  0001 C CNN
 F 1 "+5V" H 3350 2640 50  0000 C CNN
 F 2 "" H 3350 2500 50  0001 C CNN
 F 3 "" H 3350 2500 50  0001 C CNN
@@ -1667,26 +1303,26 @@ F 3 "" H 3350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 2550 3350 2550
+	2650 2550 3350 2550
 Wire Wire Line
 	3350 2550 3350 2500
 $Comp
 L power:Earth #PWR?
 U 1 1 5DD30DC8
-P 3500 5350
+P 2900 3250
 AR Path="/5DD30DC8" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5DD30DC8" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 3500 5100 50  0001 C CNN
-F 1 "Earth" H 3500 5200 50  0001 C CNN
-F 2 "" H 3500 5350 50  0001 C CNN
-F 3 "~" H 3500 5350 50  0001 C CNN
-	1    3500 5350
+AR Path="/5D4182A2/5DD30DC8" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 2900 3000 50  0001 C CNN
+F 1 "Earth" H 2900 3100 50  0001 C CNN
+F 2 "" H 2900 3250 50  0001 C CNN
+F 3 "~" H 2900 3250 50  0001 C CNN
+	1    2900 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 5300 3500 5300
+	2650 3200 2900 3200
 Wire Wire Line
-	3500 5300 3500 5350
+	2900 3200 2900 3250
 Wire Wire Line
 	14000 4650 14000 4550
 Connection ~ 14000 4550
@@ -1727,8 +1363,8 @@ L power:Earth #PWR?
 U 1 1 5DE7B0A4
 P 4100 1050
 AR Path="/5DE7B0A4" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5DE7B0A4" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 4100 800 50  0001 C CNN
+AR Path="/5D4182A2/5DE7B0A4" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 4100 800 50  0001 C CNN
 F 1 "Earth" H 4100 900 50  0001 C CNN
 F 2 "" H 4100 1050 50  0001 C CNN
 F 3 "~" H 4100 1050 50  0001 C CNN
@@ -1751,8 +1387,8 @@ L power:+5V #PWR?
 U 1 1 5DF1EE8A
 P 2500 1000
 AR Path="/5DF1EE8A" Ref="#PWR?"  Part="1" 
-AR Path="/5D4182A2/5DF1EE8A" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 2500 850 50  0001 C CNN
+AR Path="/5D4182A2/5DF1EE8A" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 2500 850 50  0001 C CNN
 F 1 "+5V" H 2500 1140 50  0000 C CNN
 F 2 "" H 2500 1000 50  0001 C CNN
 F 3 "" H 2500 1000 50  0001 C CNN
@@ -1768,6 +1404,227 @@ Wire Wire Line
 Connection ~ 2500 1300
 Wire Wire Line
 	2500 1300 2500 1000
-Text Notes 10150 6650 2    129  ~ 0
+Text Notes 10050 7100 2    129  ~ 0
 7x30 \nMATRIX
+Wire Wire Line
+	4000 5650 4100 5650
+Wire Wire Line
+	5050 5650 4950 5650
+Wire Wire Line
+	4000 7150 4100 7150
+Wire Wire Line
+	4700 5650 4800 5650
+Wire Wire Line
+	4800 5650 4800 5350
+Wire Wire Line
+	4700 7150 4800 7150
+Wire Wire Line
+	5650 7150 5750 7150
+Wire Wire Line
+	4950 7150 5050 7150
+Wire Wire Line
+	5350 7400 5350 7350
+Connection ~ 4400 7700
+Wire Wire Line
+	4950 5250 4950 5650
+Connection ~ 4950 5650
+Wire Wire Line
+	4950 5650 4950 7150
+Wire Wire Line
+	4950 5250 4100 5250
+Wire Wire Line
+	4100 5250 4100 4950
+Wire Wire Line
+	4800 5650 4800 7150
+Connection ~ 4800 5650
+Wire Wire Line
+	4800 5350 5650 5350
+Wire Wire Line
+	5650 5350 5650 4950
+Wire Wire Line
+	13800 5900 13800 5850
+Wire Wire Line
+	14750 5900 14750 5850
+Wire Wire Line
+	14750 6100 14750 6200
+$Comp
+L Device:L_Small L?
+U 1 1 613EED69
+P 14750 6000
+AR Path="/613EED69" Ref="L?"  Part="1" 
+AR Path="/5D4182A2/613EED69" Ref="L4"  Part="1" 
+F 0 "L4" H 14780 6040 50  0000 L CNN
+F 1 "COIL" H 14780 5960 50  0000 L CNN
+F 2 "" H 14750 6000 50  0001 C CNN
+F 3 "~" H 14750 6000 50  0001 C CNN
+	1    14750 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 613EED6F
+P 13800 6000
+AR Path="/613EED6F" Ref="L?"  Part="1" 
+AR Path="/5D4182A2/613EED6F" Ref="L3"  Part="1" 
+F 0 "L3" H 13830 6040 50  0000 L CNN
+F 1 "COIL" H 13830 5960 50  0000 L CNN
+F 2 "" H 13800 6000 50  0001 C CNN
+F 3 "~" H 13800 6000 50  0001 C CNN
+	1    13800 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 4950 15150 5650
+Wire Wire Line
+	15150 5650 15050 5650
+Wire Wire Line
+	13400 4950 13400 5650
+Wire Wire Line
+	14750 6200 13800 6200
+Wire Wire Line
+	13800 6100 13800 6200
+Connection ~ 13800 6200
+$Comp
+L Diode:BAV99 D?
+U 1 1 613EED7C
+P 13800 7150
+AR Path="/613EED7C" Ref="D?"  Part="2" 
+AR Path="/5D4182A2/613EED7C" Ref="D17"  Part="1" 
+F 0 "D17" H 13800 7250 50  0000 C CNN
+F 1 "BAV99" H 13650 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13800 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 13800 7250 50  0001 C CNN
+	1    13800 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:BAV99 D?
+U 1 1 613EED82
+P 13800 5650
+AR Path="/613EED82" Ref="D?"  Part="2" 
+AR Path="/5D4182A2/613EED82" Ref="D13"  Part="1" 
+F 0 "D13" H 13800 5750 50  0000 C CNN
+F 1 "BAV99" H 13650 5550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13800 5500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 13800 5750 50  0001 C CNN
+	1    13800 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 7400 13800 7350
+$Comp
+L Diode:BAV99 D?
+U 1 1 613EED89
+P 14750 7150
+AR Path="/613EED89" Ref="D?"  Part="2" 
+AR Path="/5D4182A2/613EED89" Ref="D18"  Part="1" 
+F 0 "D18" H 14750 7250 50  0000 C CNN
+F 1 "BAV99" H 14600 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14750 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14750 7250 50  0001 C CNN
+	1    14750 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:BAV99 D?
+U 1 1 613EED8F
+P 14750 5650
+AR Path="/613EED8F" Ref="D?"  Part="2" 
+AR Path="/5D4182A2/613EED8F" Ref="D14"  Part="1" 
+F 0 "D14" H 14750 5750 50  0000 C CNN
+F 1 "BAV99" H 14600 5550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14750 5500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14750 5750 50  0001 C CNN
+	1    14750 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 7600 14750 7700
+$Comp
+L Device:L_Small L?
+U 1 1 613EED96
+P 14750 7500
+AR Path="/613EED96" Ref="L?"  Part="1" 
+AR Path="/5D4182A2/613EED96" Ref="L8"  Part="1" 
+F 0 "L8" H 14780 7540 50  0000 L CNN
+F 1 "COIL" H 14780 7460 50  0000 L CNN
+F 2 "" H 14750 7500 50  0001 C CNN
+F 3 "~" H 14750 7500 50  0001 C CNN
+	1    14750 7500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 613EED9C
+P 13800 7500
+AR Path="/613EED9C" Ref="L?"  Part="1" 
+AR Path="/5D4182A2/613EED9C" Ref="L7"  Part="1" 
+F 0 "L7" H 13830 7540 50  0000 L CNN
+F 1 "COIL" H 13830 7460 50  0000 L CNN
+F 2 "" H 13800 7500 50  0001 C CNN
+F 3 "~" H 13800 7500 50  0001 C CNN
+	1    13800 7500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 7700 13800 7700
+Wire Wire Line
+	13800 7600 13800 7700
+Wire Wire Line
+	15150 5650 15150 7150
+Connection ~ 15150 5650
+Wire Wire Line
+	13400 7150 13400 5650
+Connection ~ 13400 5650
+Wire Notes Line
+	14300 5400 14300 8200
+Wire Notes Line
+	15200 5400 15200 8200
+Wire Notes Line
+	13350 5400 13350 8200
+Text Notes 13700 8050 0    50   ~ 0
+COL29
+Text Notes 14650 8050 0    50   ~ 0
+COL30
+Wire Wire Line
+	13400 5650 13500 5650
+Wire Wire Line
+	14450 5650 14350 5650
+Wire Wire Line
+	13400 7150 13500 7150
+Wire Wire Line
+	14100 5650 14200 5650
+Wire Wire Line
+	14200 5650 14200 5350
+Wire Wire Line
+	14100 7150 14200 7150
+Wire Wire Line
+	15050 7150 15150 7150
+Wire Wire Line
+	14350 7150 14450 7150
+Wire Wire Line
+	14750 7400 14750 7350
+Connection ~ 13800 7700
+Wire Wire Line
+	14350 5250 14350 5650
+Connection ~ 14350 5650
+Wire Wire Line
+	14350 5650 14350 7150
+Wire Wire Line
+	14350 5250 13500 5250
+Wire Wire Line
+	13500 5250 13500 4950
+Wire Wire Line
+	14200 5650 14200 7150
+Connection ~ 14200 5650
+Wire Wire Line
+	14200 5350 15050 5350
+Wire Wire Line
+	15050 5350 15050 4950
+Wire Wire Line
+	5350 6200 13800 6200
+Connection ~ 5350 6200
+Wire Wire Line
+	5350 7700 13800 7700
+Connection ~ 5350 7700
 $EndSCHEMATC
